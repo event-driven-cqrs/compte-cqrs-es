@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: compte-service
+  datasource:
+    url: jdbc:h2:mem:customer-db
+  h2:
+    console.enabled: true
+
+server:
+  port: 8082
